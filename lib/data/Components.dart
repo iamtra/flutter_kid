@@ -1,0 +1,52 @@
+import '../model/ComponentModel.dart';
+
+const List<ComponentModel> components = [
+  ComponentModel(id: '1', title: 'Common Button', route: '/common-button'),
+  ComponentModel(
+    id: '2',
+    title: 'Floating Action Button',
+    route: '/floating-action-button',
+  ),
+  ComponentModel(
+    id: '3',
+    title: 'Extended Floating Action Button',
+    route: '/extended-floating-action-button',
+  ),
+  ComponentModel(id: '4', title: 'Icon Button', route: '/icon-button'),
+  ComponentModel(
+    id: '5',
+    title: 'Segmented Button',
+    route: '/segmented-button',
+  ),
+  ComponentModel(id: '6', title: 'Badge', route: '/badge'),
+  ComponentModel(
+    id: '7',
+    title: 'Linear Progress Indicator',
+    route: '/linear-progress-indicator',
+  ),
+  ComponentModel(id: '8', title: 'Snack Bar', route: '/snack-bar'),
+  ComponentModel(id: '9', title: 'Alert Dialog', route: '/alert-dialog'),
+  ComponentModel(id: '10', title: 'Bottom Sheet', route: '/bottom-sheet'),
+  ComponentModel(id: '11', title: 'Card', route: '/card'),
+  ComponentModel(id: '12', title: 'Divider', route: '/divider'),
+  ComponentModel(id: '13', title: 'List Tile', route: '/list-tile'),
+  ComponentModel(id: '14', title: 'AppBar', route: '/app-bar'),
+  ComponentModel(id: '15', title: 'Bottom App Bar', route: '/bottom-app-bar'),
+  ComponentModel(id: '16', title: 'Navigation Bar', route: '/navigation-bar'),
+  ComponentModel(
+    id: '17',
+    title: 'Navigation Drawer',
+    route: '/navigation-drawer',
+  ),
+  ComponentModel(id: '18', title: 'Navigation Rail', route: '/navigation-rail'),
+  ComponentModel(id: '19', title: 'TabBar', route: '/tab-bar'),
+  ComponentModel(id: '20', title: 'Checkbox', route: '/checkbox'),
+  ComponentModel(id: '21', title: 'Chip', route: '/chip'),
+  ComponentModel(id: '22', title: 'Date Picker', route: '/date-picker'),
+  ComponentModel(id: '23', title: 'Menu', route: '/menu'),
+  ComponentModel(id: '24', title: 'Radio', route: '/radio'),
+  ComponentModel(id: '25', title: 'Slider', route: '/slider'),
+  ComponentModel(id: '26', title: 'Switch', route: '/switch'),
+  ComponentModel(id: '27', title: 'Time Picker', route: '/time-picker'),
+  ComponentModel(id: '28', title: 'Text Field', route: '/text-field'),
+];
